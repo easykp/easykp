@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MeBill" parent="Theme.Material3.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <!-- Background colors. -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <!-- Error color. -->
+        <item name="colorError">@color/error</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">true</item>
+    </style>
+
+    <!-- AppBarLayout theme -->
+    <style name="Theme.MeBill.AppBarOverlay" parent="ThemeOverlay.Material3.ActionBar" />
+
+    <!-- PopupMenu theme -->
+    <style name="Theme.MeBill.PopupOverlay" parent="ThemeOverlay.Material3.Dark" />
+
+    <!-- NoActionBar theme for activities that use Toolbar -->
+    <style name="Theme.MeBill.NoActionBar" parent="Theme.MeBill">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Card style -->
+    <style name="Widget.MeBill.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="cardBackgroundColor">@color/card_background</item>
+    </style>
+
+    <!-- Button styles -->
+    <style name="Widget.MeBill.Button" parent="Widget.Material3.Button">
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Widget.MeBill.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Widget.MeBill.Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- FAB style -->
+    <style name="Widget.MeBill.FloatingActionButton" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MeBill.FloatingActionButton</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MeBill.FloatingActionButton" parent="">
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <!-- TextInputLayout styles -->
+    <style name="Widget.MeBill.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+    </style>
+
+    <!-- Chip styles -->
+    <style name="Widget.MeBill.Chip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipCornerRadius">16dp</item>
+    </style>
+
+    <!-- Bottom Navigation style -->
+    <style name="Widget.MeBill.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemTextAppearanceActive">@style/TextAppearance.MeBill.BottomNavigation.Active</item>
+        <item name="itemTextAppearanceInactive">@style/TextAppearance.MeBill.BottomNavigation.Inactive</item>
+    </style>
+
+    <!-- Text appearances -->
+    <style name="TextAppearance.MeBill.Headline1" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="TextAppearance.MeBill.Headline2" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="TextAppearance.MeBill.Subtitle1" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="TextAppearance.MeBill.Body1" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="TextAppearance.MeBill.Body2" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="TextAppearance.MeBill.Caption" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/text_hint</item>
+    </style>
+
+    <style name="TextAppearance.MeBill.BottomNavigation.Active" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="TextAppearance.MeBill.BottomNavigation.Inactive" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+</resources>

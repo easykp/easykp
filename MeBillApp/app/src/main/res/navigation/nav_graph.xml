@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_dashboard">
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.mebill.app.ui.fragments.DashboardFragment"
+        android:label="@string/dashboard_title"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_bills"
+        android:name="com.mebill.app.ui.fragments.BillsFragment"
+        android:label="@string/bills_title"
+        tools:layout="@layout/fragment_bills" />
+
+    <fragment
+        android:id="@+id/navigation_calendar"
+        android:name="com.mebill.app.ui.fragments.CalendarFragment"
+        android:label="@string/calendar_title"
+        tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+        android:id="@+id/navigation_reports"
+        android:name="com.mebill.app.ui.fragments.ReportsFragment"
+        android:label="@string/reports_title"
+        tools:layout="@layout/fragment_reports" />
+
+</navigation>

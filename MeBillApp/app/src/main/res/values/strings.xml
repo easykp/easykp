@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MeBill</string>
+    
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_bills">Bills</string>
+    <string name="nav_calendar">Calendar</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="overdue_bills">Overdue Bills</string>
+    <string name="upcoming_bills">Upcoming Bills</string>
+    <string name="total_unpaid_expenses">Total Unpaid Expenses</string>
+    <string name="total_unpaid_income">Total Unpaid Income</string>
+    <string name="recent_bills">Recent Bills</string>
+    <string name="quick_actions">Quick Actions</string>
+    
+    <!-- Bills -->
+    <string name="bills_title">Bills</string>
+    <string name="add_bill">Add Bill</string>
+    <string name="edit_bill">Edit Bill</string>
+    <string name="delete_bill">Delete Bill</string>
+    <string name="bill_name">Bill Name</string>
+    <string name="bill_description">Description</string>
+    <string name="bill_amount">Amount</string>
+    <string name="bill_due_date">Due Date</string>
+    <string name="bill_category">Category</string>
+    <string name="bill_priority">Priority</string>
+    <string name="bill_recurring">Recurring</string>
+    <string name="bill_reminder_days">Reminder Days</string>
+    <string name="bill_notes">Notes</string>
+    <string name="bill_account_number">Account Number</string>
+    <string name="bill_website">Website</string>
+    <string name="bill_phone_number">Phone Number</string>
+    <string name="bill_payment_method">Payment Method</string>
+    <string name="bill_confirmation_number">Confirmation Number</string>
+    
+    <!-- Bill Status -->
+    <string name="paid">Paid</string>
+    <string name="unpaid">Unpaid</string>
+    <string name="overdue">Overdue</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="mark_as_paid">Mark as Paid</string>
+    <string name="mark_as_unpaid">Mark as Unpaid</string>
+    
+    <!-- Bill Types -->
+    <string name="payable">Payable</string>
+    <string name="receivable">Receivable</string>
+    
+    <!-- Priority Levels -->
+    <string name="priority_low">Low</string>
+    <string name="priority_medium">Medium</string>
+    <string name="priority_high">High</string>
+    <string name="priority_critical">Critical</string>
+    
+    <!-- Recurring Types -->
+    <string name="recurring_none">None</string>
+    <string name="recurring_daily">Daily</string>
+    <string name="recurring_weekly">Weekly</string>
+    <string name="recurring_bi_weekly">Bi-Weekly</string>
+    <string name="recurring_monthly">Monthly</string>
+    <string name="recurring_quarterly">Quarterly</string>
+    <string name="recurring_semi_annually">Semi-Annually</string>
+    <string name="recurring_annually">Annually</string>
+    
+    <!-- Categories -->
+    <string name="category_utilities">Utilities</string>
+    <string name="category_rent_mortgage">Rent/Mortgage</string>
+    <string name="category_insurance">Insurance</string>
+    <string name="category_credit_cards">Credit Cards</string>
+    <string name="category_subscriptions">Subscriptions</string>
+    <string name="category_phone_internet">Phone/Internet</string>
+    <string name="category_transportation">Transportation</string>
+    <string name="category_healthcare">Healthcare</string>
+    <string name="category_education">Education</string>
+    <string name="category_other">Other</string>
+    
+    <!-- Actions -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="sort">Sort</string>
+    <string name="add">Add</string>
+    <string name="view_details">View Details</string>
+    
+    <!-- Filters -->
+    <string name="filter_all">All</string>
+    <string name="filter_paid">Paid</string>
+    <string name="filter_unpaid">Unpaid</string>
+    <string name="filter_overdue">Overdue</string>
+    <string name="filter_upcoming">Upcoming</string>
+    <string name="filter_payable">Payable</string>
+    <string name="filter_receivable">Receivable</string>
+    
+    <!-- Calendar -->
+    <string name="calendar_title">Calendar</string>
+    <string name="no_bills_for_date">No bills for this date</string>
+    
+    <!-- Reports -->
+    <string name="reports_title">Reports</string>
+    <string name="expense_by_category">Expenses by Category</string>
+    <string name="monthly_summary">Monthly Summary</string>
+    <string name="yearly_summary">Yearly Summary</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="notification_settings">Notification Settings</string>
+    <string name="default_reminder_days">Default Reminder Days</string>
+    <string name="currency_format">Currency Format</string>
+    <string name="date_format">Date Format</string>
+    <string name="backup_restore">Backup &amp; Restore</string>
+    <string name="about">About</string>
+    
+    <!-- Notifications -->
+    <string name="bill_reminder_title">Bill Reminder</string>
+    <string name="bill_due_soon">You have a bill due soon</string>
+    <string name="bill_overdue">You have overdue bills</string>
+    
+    <!-- Error Messages -->
+    <string name="error_empty_bill_name">Bill name cannot be empty</string>
+    <string name="error_invalid_amount">Please enter a valid amount</string>
+    <string name="error_invalid_date">Please select a valid date</string>
+    <string name="error_loading_data">Error loading data</string>
+    <string name="error_saving_bill">Error saving bill</string>
+    <string name="error_deleting_bill">Error deleting bill</string>
+    
+    <!-- Success Messages -->
+    <string name="bill_saved_successfully">Bill saved successfully</string>
+    <string name="bill_deleted_successfully">Bill deleted successfully</string>
+    <string name="bill_marked_paid">Bill marked as paid</string>
+    <string name="bill_marked_unpaid">Bill marked as unpaid</string>
+    
+    <!-- Empty States -->
+    <string name="no_bills">No bills found</string>
+    <string name="no_overdue_bills">No overdue bills</string>
+    <string name="no_upcoming_bills">No upcoming bills</string>
+    <string name="add_your_first_bill">Add your first bill to get started</string>
+    
+    <!-- Currency -->
+    <string name="currency_symbol">$</string>
+    
+    <!-- Date Format -->
+    <string name="date_format_pattern">MMM dd, yyyy</string>
+    
+    <!-- Menu -->
+    <string name="menu_search">Search</string>
+    <string name="menu_filter">Filter</string>
+    <string name="menu_sort">Sort</string>
+    <string name="menu_settings">Settings</string>
+    
+    <!-- Content Descriptions -->
+    <string name="cd_add_bill">Add new bill</string>
+    <string name="cd_bill_status">Bill status</string>
+    <string name="cd_bill_priority">Bill priority</string>
+    <string name="cd_bill_type">Bill type</string>
+    <string name="cd_more_options">More options</string>
+</resources>
